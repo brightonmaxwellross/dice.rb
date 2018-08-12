@@ -13,7 +13,7 @@ end
 class Player
   def initialize
     dice=TwentyDice.new
-    @life=dice.roll + dice.roll + dice.roll
+    @life=dice.roll + dice.roll + dice.roll + dice.roll + dice.roll
     @max_life = @life
   end
 
