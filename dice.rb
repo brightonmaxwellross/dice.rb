@@ -15,7 +15,7 @@ class Player
     dice=TwentyDice.new
     @life=dice.roll + dice.roll + dice.roll + dice.roll + dice.roll
     @max_life = @life
-    puts"player,s life is #{@life}"
+    puts"player's life is #{@life}"
   end
 
   def life
